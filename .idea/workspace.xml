@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d379e864-737d-4511-8ff7-94a31eda9aec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/edu/hitsz/application/EasyGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hitsz/application/HardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hitsz/application/NormalGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/bgm.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/bgm_boss.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/bomb_explosion.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/bullet.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/bullet_hit.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/game_over.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/get_supply.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/Demo.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/Inheritence.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AircraftWar-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AircraftWar-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AircraftWar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/aircraft/AbstractAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/aircraft/AbstractAircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/aircraft/HeroAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/aircraft/HeroAircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/aircraft/MobEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/aircraft/MobEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/application/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/application/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/application/HeroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/application/HeroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/application/ImageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/application/ImageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/basic/FlyingObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/basic/AbstractFlyingObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/bullet/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/bullet/BaseBullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/bullet/EnemyBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/bullet/EnemyBullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hitsz/bullet/HeroBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hitsz/bullet/HeroBullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bullet_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/bullet_hero.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="UML Sequence" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/out/production/AircraftWar-base/edu/hitsz/aircraft/HeroAircraft.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2dDX811S2Oyrg1KsZ3N5cBcTOkA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.EliteEnemyTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.HeroAircraftTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/javawork/AircraftWar-base_wjr&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.hitsz.aircraft" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AircraftWar-base_wjr" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AircraftWar-base_wjr" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d379e864-737d-4511-8ff7-94a31eda9aec" name="Changes" comment="" />
+      <created>1709543459400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709543459400</updated>
+      <workItem from="1709543462835" duration="12000" />
+      <workItem from="1711677452699" duration="1330000" />
+      <workItem from="1713443257526" duration="64000" />
+      <workItem from="1713443696876" duration="3336000" />
+      <workItem from="1713505163426" duration="850000" />
+      <workItem from="1713506208937" duration="897000" />
+      <workItem from="1713509999132" duration="5000" />
+      <workItem from="1713510063976" duration="9000" />
+      <workItem from="1713516227409" duration="42000" />
+      <workItem from="1713516429566" duration="688000" />
+      <workItem from="1713621648641" duration="75000" />
+      <workItem from="1713696169136" duration="53000" />
+      <workItem from="1713700072755" duration="353000" />
+      <workItem from="1713785744253" duration="4000" />
+      <workItem from="1713827308024" duration="621000" />
+      <workItem from="1713947394784" duration="1539000" />
+      <workItem from="1713953435192" duration="8528000" />
+      <workItem from="1713965497476" duration="2670000" />
+      <workItem from="1713999205231" duration="5417000" />
+      <workItem from="1714031639958" duration="2388000" />
+      <workItem from="1714047260514" duration="1129000" />
+      <workItem from="1714087080022" duration="436000" />
+      <workItem from="1714087527290" duration="2255000" />
+      <workItem from="1714108196909" duration="6320000" />
+      <workItem from="1714114939145" duration="1926000" />
+      <workItem from="1714118287489" duration="4557000" />
+      <workItem from="1714183367396" duration="2176000" />
+      <workItem from="1714207381502" duration="90000" />
+      <workItem from="1714213087264" duration="4505000" />
+      <workItem from="1714223574758" duration="4402000" />
+      <workItem from="1714261145078" duration="2546000" />
+      <workItem from="1714267607956" duration="41000" />
+      <workItem from="1714278326408" duration="787000" />
+      <workItem from="1714380104715" duration="2696000" />
+      <workItem from="1714383407033" duration="1111000" />
+      <workItem from="1714388839466" duration="33000" />
+      <workItem from="1714388942549" duration="101000" />
+      <workItem from="1714394461063" duration="172000" />
+      <workItem from="1714394672032" duration="12000" />
+      <workItem from="1714429886283" duration="5000" />
+      <workItem from="1714464861430" duration="735000" />
+      <workItem from="1715088152962" duration="50000" />
+      <workItem from="1715088217570" duration="3008000" />
+      <workItem from="1715091742172" duration="407000" />
+      <workItem from="1715121404750" duration="3268000" />
+      <workItem from="1715125822391" duration="1958000" />
+      <workItem from="1715129722992" duration="115000" />
+      <workItem from="1715147407158" duration="10413000" />
+      <workItem from="1715166926352" duration="144000" />
+      <workItem from="1715167283385" duration="5216000" />
+      <workItem from="1715209021831" duration="1825000" />
+      <workItem from="1715243726347" duration="4758000" />
+      <workItem from="1715254032936" duration="1682000" />
+      <workItem from="1715321663880" duration="1515000" />
+      <workItem from="1715323352142" duration="3598000" />
+      <workItem from="1715343553218" duration="1226000" />
+      <workItem from="1715380937543" duration="1988000" />
+      <workItem from="1715470696683" duration="116000" />
+      <workItem from="1715470819148" duration="3590000" />
+      <workItem from="1715474905477" duration="6676000" />
+      <workItem from="1715482499215" duration="762000" />
+      <workItem from="1715504287050" duration="1522000" />
+      <workItem from="1715505841353" duration="3000" />
+      <workItem from="1715505890846" duration="84000" />
+      <workItem from="1715517600642" duration="3000" />
+      <workItem from="1715581012573" duration="44000" />
+      <workItem from="1715585205751" duration="2508000" />
+      <workItem from="1715640890829" duration="177000" />
+      <workItem from="1715641153012" duration="34000" />
+      <workItem from="1715641302705" duration="405000" />
+      <workItem from="1715643471456" duration="240000" />
+      <workItem from="1715643920554" duration="1925000" />
+      <workItem from="1715645874760" duration="802000" />
+      <workItem from="1715647840426" duration="115000" />
+      <workItem from="1715653714522" duration="2576000" />
+      <workItem from="1715656351069" duration="3346000" />
+      <workItem from="1715671325121" duration="1434000" />
+      <workItem from="1715673664872" duration="2802000" />
+      <workItem from="1715676507137" duration="9856000" />
+      <workItem from="1715689721050" duration="439000" />
+      <workItem from="1715691581576" duration="81000" />
+      <workItem from="1715733850444" duration="2123000" />
+      <workItem from="1715737917052" duration="1984000" />
+      <workItem from="1715753597238" duration="39000" />
+      <workItem from="1715775853819" duration="106000" />
+      <workItem from="1715775974641" duration="141000" />
+      <workItem from="1715827470075" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/hitsz/application/RankListTable.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AircraftWar_base_wjr$EliteEnemyTest.ic" NAME="EliteEnemyTest Coverage Results" MODIFIED="1713444617835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>edu.hitsz.aircraft.*</FILTER>
+    </SUITE>
+  </component>
+</project>

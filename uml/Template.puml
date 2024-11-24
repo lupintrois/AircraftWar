@@ -1,0 +1,71 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+abstract class Game {
+    # backGroundTop:int
+    # executorService:ScheduledExecutorService
+    # timeInterval:int
+    # {static} heroAircraft:Heroaircraft
+    # {static} enemyAircrafts:List<AbstractEnemy>
+    # {static} heroBullets:List<BaseBullet>
+    # {static} enemyBullets:List<BaseBullet>
+    # {static} props:List<BaseProp>
+    # enemyMaxNumber:int
+    # time:int
+    # flag:int
+    # cycleDuration:int
+    # cycleTime:int
+    # timerate:double
+    # {static} boss_thread:MusicThread
+    # gameOverFlag:boolean
+    + Game()
+    + action():void
+    + {abstract} generateRankList():void
+    + {abstract} generateEnemy():void
+    + {abstract} generateBoss():void
+    + {abstract} timeIncrease():void
+    - timeCountAndNewCycleJudge():boolean
+    - shootAction():void
+    - bulletMoveAction():void
+    - aircraftMoveAction():void
+    - propMoveAction():void
+    - crashCheckAction():void
+    - postProcessAction():void
+    + paint(Graphics g):void
+    + {abstract} paintBG(Graphics g):void
+    - paintImageWithPositionRevised(Graphics g, List<? extends AbstractFlyingObject> objects):void
+    - paintScoreAndLife(Graphics g):void
+}
+
+class EasyGame {
+    + EasyGame()
+    + generateEnemy():void
+    + generateBoss():void
+    + paintBG(Graphics g):void
+    + generateRankList():void
+    + timeIncrease():void
+}
+
+class NormalGame {
+    + NormalGame()
+    + generateEnemy():void
+    + generateBoss():void
+    + paintBG(Graphics g):void
+    + generateRankList():void
+    + timeIncrease():void
+}
+
+class HardGame {
+    - cnt:int
+    + HardGame()
+    + generateEnemy():void
+    + generateBoss():void
+    + paintBG(Graphics g):void
+    + generateRankList():void
+    + timeIncrease():void
+}
+
+Game <|-- EasyGame
+Game <|-- NormalGame
+Game <|-- HardGame
+@enduml

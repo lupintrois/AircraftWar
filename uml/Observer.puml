@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class BombProp {
+    + BombProp(int locationX, int locationY, int speedX, int speedY)
+    - observers:List<AbstractEnemy>
+    + attach(AbstractEnemy observer):void
+    + detach(AbstractEnemy observer):void
+    + active(HeroAircraft aircraft):void
+}
+
+interface Observer{
+    + update(HeroAircraft herocraft):void
+}
+
+BombProp o--> Observer
+
+class MobEnemy {
+    + MobEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    + forward():void
+    + PropGenerate(AbstractEnemy mobEnemy, List<BaseProp> props):void
+    + update(HeroAircraft herocraft):void
+}
+
+class EliteEnemy {
+    + EliteEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    + forward():void
+    + PropGenerate(AbstractEnemy eliteEnemy, List<BaseProp> props):void
+    + update(HeroAircraft herocraft):void
+}
+
+class PlusEnemy {
+    + PlusEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    + forward():void
+    + PropGenerate(AbstractEnemy plusEnemy, List<BaseProp> props):void
+    + update(HeroAircraft herocraft):void
+}
+
+class BossEnemy {
+    + BossEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    + forward():void
+    + PropGenerate(AbstractEnemy bossEnemy, List<BaseProp> props):void
+    + update(HeroAircraft herocraft):void
+}
+
+class EnemyBullet {
+    + EnemyBullet(int locationX, int locationY, int speedX, int speedY, int power)
+    + update(HeroAircraft herocraft)
+}
+
+Observer <|.. MobEnemy
+Observer <|.. EliteEnemy
+Observer <|.. PlusEnemy
+Observer <|.. BossEnemy
+Observer <|.. EnemyBullet
+@enduml

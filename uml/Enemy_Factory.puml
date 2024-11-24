@@ -1,0 +1,77 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+interface EnemyFactory {
+    + {abstract} createEnemyAircraft():AbstractEnemy
+}
+
+class MobFactory {
+    + createEnemyAircraft():AbstractEnemy
+}
+
+class EliteFactory {
+    + createEnemyAircraft():AbstractEnemy
+}
+
+class PlusFactory {
+    + createEnemyAircraft():AbstractEnemy
+}
+
+class BossFactory {
+    + createEnemyAircraft():AbstractEnemy
+}
+
+EnemyFactory <|.. MobFactory
+EnemyFactory <|.. EliteFactory
+EnemyFactory <|.. PlusFactory
+EnemyFactory <|.. BossFactory
+
+abstract class AbstractEnemy {
+    + AbstractEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    - score:int
+    + setScore(int score):void
+    + getScore():int
+    + setSpeedX(int speedX):void
+    + getSpeedX():int
+    + setSpeedY(int speedY):void
+    + getSpeedY():int
+    + setHp(int hp):void
+    + getHp():int
+    + {abstract} PropGenerate(AbstractEnemy enemyaircraft, List<BaseProp> props):void
+}
+
+class MobEnemy {
+    + MobEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    + forward():void
+    + PropGenerate(AbstractAircraft eliteEnemy, List<BaseProp> props):void
+    + update(HeroAircraft herocraft):void
+}
+
+class EliteEnemy {
+    + EliteEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    + forward():void
+    + PropGenerate(AbstractAircraft eliteEnemy, List<BaseProp> props):void
+    + update(HeroAircraft herocraft):void
+}
+
+class PlusEnemy {
+    + PlusEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    + forward():void
+    + PropGenerate(AbstractAircraft eliteEnemy, List<BaseProp> props):void
+    + update(HeroAircraft herocraft):void
+}
+
+class BossEnemy {
+    + BossEnemy(int locationX, int locationY, int speedX, int speedY, int hp)
+    + forward():void
+    + PropGenerate(AbstractAircraft eliteEnemy, List<BaseProp> props):void
+    + update(HeroAircraft herocraft):void
+}
+
+AbstractEnemy <|-- MobEnemy
+AbstractEnemy <|-- EliteEnemy
+AbstractEnemy <|-- PlusEnemy
+AbstractEnemy <|-- BossEnemy
+
+EnemyFactory ..> AbstractEnemy
+@enduml

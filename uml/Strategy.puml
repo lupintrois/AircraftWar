@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+interface ShootStrategy {
+    + {abstract} generatebullet(AbstractAircraft aircraft):List<BaseBullet>
+}
+
+class StraightStrategy {
+    + generatebullet(AbstractAircraft aircraft):List<BaseBullet>
+}
+
+class DispersedStrategy {
+    + generatebullet(AbstractAircraft aircraft):List<BaseBullet>
+}
+
+class CircleStrategy {
+    + generatebullet(AbstractAircraft aircraft):List<BaseBullet>
+}
+
+abstract class AbstractAircraft {
+    # maxHp:int
+    # hp:int
+    # direction:int
+    # power:int
+    # shootNum:int
+    - strategy:ShootStrategy
+    + AbstractAircraft()
+    + AbstractAircraft(int location, int locationY, int speedX, int speedY, int hp)
+    + getDirection():int
+    + setDirection(int direction):void
+    + getPower():int
+    + setPower(int power):void
+    + getShootNum():int
+    + setShootNum(int shootNum):void
+    + getStrategy():ShootStrategy
+    + setStrategy(ShootStrategy strategy):void
+    + getHp():int
+    + decreaseHp(int decrease):void
+    + shoot(AbstractAircraft abstract):List<BaseBullet>
+}
+
+AbstractAircraft o--> ShootStrategy
+
+ShootStrategy <|.. StraightStrategy
+ShootStrategy <|.. DispersedStrategy
+ShootStrategy <|.. CircleStrategy
+@enduml

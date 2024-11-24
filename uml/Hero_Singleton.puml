@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class HeroAircraft{
+    - {static} instance:HeroAircraft
+    - score:int
+    - HeroAircraft()
+    - HeroAircraft(int locationX, int locationY, int speedX, int speedY, int hp)
+    + {static} getInstance():HeroAircraft
+    + increaseHp(int increase):void
+    + getScore():int
+    + setScore(int score):void
+    + forward():void
+}
+HeroAircraft --> HeroAircraft
+@enduml

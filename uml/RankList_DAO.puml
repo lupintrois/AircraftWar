@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class RankList {
+    - score:int
+    - name:String
+    - dateTime:LocalDateTime
+    + RankList(int score, String name, LocalDateTime dateTime)
+    + getScore():int
+    + setScore(int score):void
+    + getName():String
+    + setName(String name):void
+    + getDateTime():LocalDateTime
+    + setDateTime(LocalDateTime dateTime):void
+    + String toString():String
+}
+
+interface RankListDao {
+    + {abstract} writeRankList():void
+    + {abstract} addRankList(RankList rankList):void
+    + {abstract} readRankList():List<RankList>
+}
+
+class RankListDaoImpl {
+    - rankLists:List<RankList>
+    - n:int
+    - path:String
+    + RankListDaoImpl(String model)
+    + writeRankList():void
+    + addRankList(RankList rankList):void
+    + readRankList():List<RankList>
+}
+
+RankListDao <|.. RankListDaoImpl
+RankListDaoImpl --> RankList
+
+@enduml
